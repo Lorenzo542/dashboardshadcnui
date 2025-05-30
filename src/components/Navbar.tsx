@@ -1,9 +1,9 @@
 "use client";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
-import { LogOut, Moon, Settings, Sidebar, Sun, User } from "lucide-react";
+import { LogOut, Moon, Settings, Sun, User } from "lucide-react";
 import Link from "next/link";
-import React, { use } from "react";
+import React from "react";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
