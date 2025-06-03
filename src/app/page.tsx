@@ -1,7 +1,7 @@
 import AppBarChart from "@/components/AppBarChart";
 import AppAreaChart from "@/components/AppAreaChart";
 import React from "react";
-import AppPieChart from "@/components/AppPieChart";
+import DatePickerWithRange from "@/components/DatePickerWithRange";
 import CardList from "@/components/CardList";
 import TodoList from "@/components/TodoList";
 
@@ -15,7 +15,7 @@ const Homepage = () => {
 				<CardList title="Latest Transactions" />
 			</div>
 			<div className="bg-primary-foreground p-4 rounded-lg">
-				<AppPieChart />
+				<DatePickerWithRange />
 			</div>
 			<div className="bg-primary-foreground p-4 rounded-lg">
 				<TodoList />
